@@ -1,2 +1,2 @@
-Test GitHub Integration.
+Test GitHub integration and Hasura preview app.
 
