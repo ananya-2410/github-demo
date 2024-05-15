@@ -1,1 +1,8 @@
-[]
+- name: limitless-escarpment-14285
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: ${{secrets.POSTGRES_SERVER_CONNECTION_URI}}
+      isolation_level: read-committed
+      use_prepared_statements: false
+  tables: "!include limitless-escarpment-14285/tables/tables.yaml"
