@@ -1,9 +1,0 @@
-- name: limitless-escarpment-14285
-  kind: postgres
-  configuration:
-    connection_info:
-      database_url:
-        from_env: HASURA_DB_URL
-      isolation_level: read-committed
-      use_prepared_statements: false
-  tables: "!include limitless-escarpment-14285/tables/tables.yaml"
