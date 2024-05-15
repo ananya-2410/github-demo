@@ -2,8 +2,7 @@
   kind: postgres
   configuration:
     connection_info:
-      database_url:
-        from_env: HASURA_DB_URL
+      database_url: postgresql://read_only_user:readonlyuser@35.236.11.122:5432/Chinook
       isolation_level: read-committed
       use_prepared_statements: false
   tables: "!include limitless-escarpment-14285/tables/tables.yaml"

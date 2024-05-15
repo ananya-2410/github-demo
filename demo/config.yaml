@@ -1,5 +1,5 @@
 version: 3
-endpoint: https://enough-reptile-38.hasura.app/
+endpoint: https://primary-reptile-59.hasura.app/
 metadata_directory: metadata
 actions:
   kind: synchronous
