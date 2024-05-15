@@ -18,7 +18,7 @@ jobs:
           name: "github-demo-${{github.env.GITHUB_HEAD_REF}}${{github.event.number}}"
           hasuraProjectDirectoryPath: demo
           hasuraEnv: |
-            HASURA_DB_URL=postgres://tfilbnaojhgeme:3a345bbe55943e1a5c11a109282b0aebf360b6ec47916a111eafcef59b472853@ec2-3-217-14-181.compute-1.amazonaws.com:5432/dabtk25uapcagc
+            HASURA_DB_URL=postgresql://read_only_user:readonlyuser@35.236.11.122:5432/Chinook
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           HASURA_CLOUD_ACCESS_TOKEN: ${{secrets.HASURA_CLOUD_ACCESS_TOKEN}}
